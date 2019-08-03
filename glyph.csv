@@ -138,6 +138,7 @@ xm,create,complex,human,destiny
 xm,path,future,destiny,harmony
 imperfect,truth,open,complex,answer
 imperfect,xm,message,human,chaos
+imperfect,civilization,lose,key,data
 complex,future,,,
 complex,journey,future,,
 complex,shapers,civilization,strong,
@@ -485,4 +486,6 @@ grow,shapers,presence,,
 link,key,field,evolution,
 link,all,portal,create,field
 shield,defend,human,civilization,
+shield,mind,clear_all,chaos,xm
 field,nourish,civilization,,
+field,together,improve,human,mind
