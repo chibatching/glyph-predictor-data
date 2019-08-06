@@ -70,6 +70,7 @@ less,chaos,more,stability,
 less,mind,more,soul,
 less,soul,more,mind,
 less,truth,more,chaos,
+less,shield,more,harm,
 more,data,gain,portal,advance
 mind,body,breathe,,
 mind,body,soul,pure,human
@@ -362,6 +363,7 @@ simple,old,truth,journey,not
 simple,truth,forget,easy,evolution
 simple,truth,breathe,nature,
 simple,truth,shapers,destroy,civilization
+simple,truth,all,human,star
 stability,strong,together,defend,resistance
 stability,together,defend,truth,
 together,strong,,,
@@ -488,5 +490,6 @@ link,all,portal,create,field
 shield,defend,human,civilization,
 shield,mind,clear_all,chaos,xm
 field,nourish,civilization,,
+field,all,mind,,
 field,together,improve,human,mind
 star,courage,difficult,,
