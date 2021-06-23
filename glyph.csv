@@ -48,6 +48,7 @@ pursue,pure,body,,
 pursue,conflict,advance,attack,chaos
 pursue,conflict,attack,advance,chaos
 pursue,path,distance,shapers,lie
+pursue,1,3,3,1
 want,truth,now,,
 want,truth,pursue,difficult,path
 want,xm,now,,
@@ -97,6 +98,7 @@ improve,mind,improve,courage,change
 improve,mind,journey,not,
 clear,mind,liberate,barrier,body
 clear,mind,open,mind,
+clear,path,help,n,l
 all,chaos,,,
 all,chaos,not,body,
 all,civilization,chaos,,
@@ -162,6 +164,7 @@ past,equal,future,,
 past,harmony,difficult,,
 past,path,create,future,journey
 past,now,future,,
+past,now,future,n,l
 future,equal,past,,
 pure,chaos,,,
 pure,body,,,
@@ -272,6 +275,7 @@ help,gain,create,pursue,
 help,human,civilization,pursue,destiny
 help,resistance,capture,all,portal
 help,shapers,create,future,
+help,n,l,avoid,capture
 hide,impure,human,idea,
 hide,journey,truth,,
 hide,path,future,,
@@ -316,6 +320,7 @@ portal,potential,help,human,future
 potential,truth,harmony,,
 potential,xm,attack,,
 potential,xm,harmony,,
+potential,new,n,l,destination
 now,chaos,create,future,civilization
 question,all,,,
 question,conflict,data,,
@@ -466,6 +471,8 @@ after,imperfect,human,presence,consequence
 live_again,die,again,evolution,future
 harmony,worth,more,,
 difficult,journey,strong,body,
+difficult,knowledge,advance,mind,
+difficult,journey,pursue,n,l
 question,potential,mystery,journey,
 conflict,grow,attack,,
 mind,technology,capture,human,soul
@@ -481,7 +488,6 @@ fear,imperfect,nzeer,technology,
 nzeer,technology,balance,truth,
 nzeer,hide,us,equal,them
 conflict,grow,attack,danger,
-difficult,knowledge,advance,mind,
 question,potential,mystery,,
 nzeer,legacy,create,future,
 share,resistance,message,,
