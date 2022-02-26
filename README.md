@@ -18,3 +18,9 @@ name,shape(using 0..9 and a)
 
 `glyph.csv` is sequence data.
 We have to use only the name in `glyph_line.csv`
+
+## Contributing
+
+If you want to report or add new sequence or shape, please make issue or pull request.
+
+**Important** Be sure to attach a screenshot to ensure the accuracy of the information.
