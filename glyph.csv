@@ -506,7 +506,7 @@ field,all,mind,,
 field,together,improve,human,mind
 star,courage,difficult,,
 key,potential,link,,
-human,potential,evolution,unbounded,,
+human,potential,evolution,unbounded,
 gain,speed,,,
 refresh,all,,,
 escape,speed,barrier,,
@@ -523,3 +523,4 @@ self,less,together,speed,
 refresh,technology,gain,more,speed
 abandon,restraint,pursue,speed,together
 refresh,mind,refresh,body,
+pursue,human,potential,evolution,
