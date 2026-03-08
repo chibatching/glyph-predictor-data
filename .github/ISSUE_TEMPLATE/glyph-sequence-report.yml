@@ -1,0 +1,73 @@
+name: Glyph sequence report
+description: Report a missing, incorrect, or ambiguous glyph sequence entry in glyph.csv.
+title: "[Glyph sequence] "
+labels:
+  - glyph-sequence
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve `glyph.csv`.
+
+        Please include enough detail to verify and reproduce the issue.
+
+        **Important:** Attach a screenshot that clearly shows the sequence source.
+  - type: dropdown
+    id: report_type
+    attributes:
+      label: Report type
+      description: What kind of sequence issue are you reporting?
+      options:
+        - Missing sequence
+        - Incorrect sequence
+        - Duplicate/ambiguous sequence
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: glyph_name
+    attributes:
+      label: Glyph name
+      description: The glyph name as used in `glyph_line.csv`.
+      placeholder: "e.g. Abaddon"
+    validations:
+      required: true
+  - type: input
+    id: current_sequence
+    attributes:
+      label: Current sequence in glyph.csv (if any)
+      description: Leave blank if this is a missing sequence report.
+      placeholder: "e.g. 142353"
+    validations:
+      required: false
+  - type: input
+    id: proposed_sequence
+    attributes:
+      label: Proposed/correct sequence
+      description: The sequence you believe should be used.
+      placeholder: "e.g. 14235"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source and evidence
+      description: Share links, references, or explanation supporting your report.
+      placeholder: "Provide source links and a short explanation."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Paste or attach a screenshot that confirms the sequence.
+      placeholder: "Drag and drop image(s) here."
+    validations:
+      required: true
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Any extra notes that may help maintainers validate this report.
+    validations:
+      required: false
